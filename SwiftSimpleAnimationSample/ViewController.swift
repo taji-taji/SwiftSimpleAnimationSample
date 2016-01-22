@@ -58,14 +58,14 @@ class ViewController: UIViewController {
     }
     
     func objectAnimation(view: UIView, option: UIViewAnimationOptions) {
-        UIView.animateWithDuration(0.7,
+        UIView.animateWithDuration(0.8,
             delay: 0,
             options: option,
             animations: { () -> Void in
                 view.frame.origin.y = 0
             }) { (Bool) -> Void in
-                UIView.animateWithDuration(0.7,
-                    delay: 0,
+                UIView.animateWithDuration(1.0,
+                    delay: 0.4,
                     options: option,
                     animations: { () -> Void in
                         view.frame.origin.y = view.superview!.frame.size.height - view.frame.size.height
