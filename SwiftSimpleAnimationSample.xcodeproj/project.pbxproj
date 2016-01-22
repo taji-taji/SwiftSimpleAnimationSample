@@ -13,6 +13,7 @@
 		935F62941C51964400271DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 935F62931C51964400271DD8 /* Assets.xcassets */; };
 		935F62971C51964400271DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935F62951C51964400271DD8 /* LaunchScreen.storyboard */; };
 		935F62A21C51964400271DD8 /* SwiftSimpleAnimationSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F62A11C51964400271DD8 /* SwiftSimpleAnimationSampleTests.swift */; };
+		935F62AD1C519F2500271DD8 /* BallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935F62AC1C519F2500271DD8 /* BallView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		935F629D1C51964400271DD8 /* SwiftSimpleAnimationSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSimpleAnimationSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		935F62A11C51964400271DD8 /* SwiftSimpleAnimationSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSimpleAnimationSampleTests.swift; sourceTree = "<group>"; };
 		935F62A31C51964400271DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		935F62AC1C519F2500271DD8 /* BallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				935F628C1C51964400271DD8 /* AppDelegate.swift */,
 				935F628E1C51964400271DD8 /* ViewController.swift */,
+				935F62AC1C519F2500271DD8 /* BallView.swift */,
 				935F62901C51964400271DD8 /* Main.storyboard */,
 				935F62931C51964400271DD8 /* Assets.xcassets */,
 				935F62951C51964400271DD8 /* LaunchScreen.storyboard */,
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				935F62AD1C519F2500271DD8 /* BallView.swift in Sources */,
 				935F628F1C51964400271DD8 /* ViewController.swift in Sources */,
 				935F628D1C51964400271DD8 /* AppDelegate.swift in Sources */,
 			);
